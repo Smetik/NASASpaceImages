@@ -7,7 +7,7 @@ data class SpaceImage (
     val description: String,
     val dateCreated: String,
     val type: MediaType,
-    val imageUrl: String,
+    val mediaUrl: String,
     val keywords: List<String>,
     val comment: String,
     val isFavorite: Boolean
