@@ -9,5 +9,5 @@ interface SpaceImageRepository {
     suspend fun update(image: SpaceImage)
     suspend fun delete(imageId: Long)
 
-    suspend fun searchImages(query: String, page: Int):List<SpaceImage>
+    suspend fun searchImages(query: String?, page: Int): List<SpaceImage>
 }
